@@ -50,3 +50,20 @@ footer {
   color: white;
   margin-top: 2rem;
 }
+
+/* ADD THESE NEW RULES BELOW */
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+}
